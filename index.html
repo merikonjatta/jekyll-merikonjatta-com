@@ -2,22 +2,30 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="greeter">
+	<div class="bg"></div>
+	<div class="bgcover"></div>
+	<div class="fg">
+		<div class="tagline">
+			Shinya Maeyama is a Japanese software developer.
+		</div>
+		<div class="links">
+			<a href="https://facebook.com/merikonjatta">
+				<span class="icon"><i class="fa fa-2x fa-facebook"></i></span>
+				<span class="text">merikonjatta</span>
+			</a>
+			<a href="https://twitter.com/merikonjatta">
+				<span class="icon"><i class="fa fa-2x fa-twitter"></i></span>
+				<span class="text">merikonjatta</span>
+			</a>
+			<a href="https://github.com/merikonjatta">
+				<span class="icon"><i class="fa fa-2x fa-github"></i></span>
+				<span class="text">merikonjatta</span>
+			</a>
+			<a href="https://bitbucket.com/merikonjatta">
+				<span class="icon"><i class="fa fa-2x fa-bitbucket"></i></span>
+				<span class="text">merikonjatta</span>
+			</a>
+		</div>
+	</div>
 </div>

@@ -1,8 +1,8 @@
 # Site settings
-title: Shinya Maeyama
+title: merikonjatta
 email: merikonjatta@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Japanese web developer.
+  Japanese web developer Shinya Maeyama.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://merikonjatta.com" # the base hostname & protocol for your site
 twitter_username:  merikonjatta

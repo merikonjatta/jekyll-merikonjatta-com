@@ -2,9 +2,9 @@
 $base-font-family: "Roboto Slab", sans-serif;
 $heading-font-family: $base-font-family;
 
-$base-font-size: 1em;
+$base-font-size: 15px;
 $base-font-weight: 300;
-$base-line-height: 1.5;
+$base-line-height: 1.6;
 $heading-line-height: 1.2;
 
 // Other Sizes
@@ -55,3 +55,9 @@ $base-duration: 150ms;
 $base-timing: ease;
 
 $fa-font-path: "../../fonts";
+
+// Neat Overrides
+// $column: 90px;
+// $gutter: 30px;
+// $grid-columns: 12;
+$max-width: 680px;

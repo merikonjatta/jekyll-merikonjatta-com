@@ -17,5 +17,4 @@ kramdown:
   input: GFM
   hard_wrap: false
   coderay_css: class
-  coderay_line_numbers: table
-  coderay_bold_every: 10000
+  coderay_line_numbers: nil

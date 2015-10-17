@@ -8,13 +8,15 @@ layout: default
 	</div>
 	<h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
 
-	<div class="post-image">
-		{% if page.imagelink %}
-			<a href="{{ page.imagelink }}"><img src="{{ page.image }}" alt="{{ page.title }}" /></a>
-		{% else %}
-			<img src="{{ page.image }}" alt="{{ page.title }}" />
-		{% endif %}
-	</div>
+	{% if page.image %}
+		<div class="post-image">
+			{% if page.imagelink %}
+				<a href="{{ page.imagelink }}"><img src="{{ page.image }}" alt="{{ page.title }}" /></a>
+			{% else %}
+				<img src="{{ page.image }}" alt="{{ page.title }}" />
+			{% endif %}
+		</div>
+	{% endif %}
 
 	<article class="post-content">
 		{{ content }}

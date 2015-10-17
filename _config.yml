@@ -9,11 +9,13 @@ twitter_username:  merikonjatta
 github_username:   merikonjatta
 facebook_username: merikonjatta
 timezone: Asia/Tokyo
+permalink: /writeups/:year/:month/:title
 
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
   coderay_css: class
   coderay_line_numbers: table
   coderay_bold_every: 10000

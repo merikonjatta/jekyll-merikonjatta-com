@@ -4,6 +4,7 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   font-size: $base-font-size;
   line-height: $base-line-height;
+  font-weight: $base-font-weight;
 }
 
 h1,
@@ -16,7 +17,12 @@ h6 {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
+  font-weight: $base-font-weight;
 }
+
+h1 { font-size: $base-font-size * 1.5; }
+h2 { font-size: $base-font-size * 1.4; }
+h3 { font-size: $base-font-size * 1.3; }
 
 p {
   margin: 0 0 $small-spacing;

@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  日本語タイトルのサンプルポスト
-categories: music
+date: 2015-10-20
+image: /images/greeter.jpg
 
 ---
 

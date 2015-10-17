@@ -14,3 +14,6 @@ imagelink: https://itunes.apple.com/us/album/highway-rider/id359077400
 これまでに聴いたストリングス入りのジャズの中でも一番好きかもしれない。
 
 サックスはDeweyの息子です。
+
+[Apple Music](https://itunes.apple.com/us/album/highway-rider/id359077400)\\
+[Spotify](https://play.spotify.com/album/4tYokQ6vjGVHC0wEBMbeY0)

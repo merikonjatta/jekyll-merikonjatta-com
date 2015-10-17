@@ -51,18 +51,19 @@ body {
 }
 
 
-.page, .post {
-    h1.page-title,
-    h1.post-title   { font-size: $base-font-size*2; }
-    h1.page-title a,
-    h1.post-title a { color: $base-font-color; }
+/*-------------------------------------------------------------------------------*/
 
+h1.title   { font-size: $base-font-size*2; }
+h1.title a:link,
+h1.title a:visited,
+h1.title a:hover    { color: $base-font-color; }
+
+.page, .post {
     .post-image   {
         margin: $base-spacing 0;
         img { max-height: 200px; box-shadow: 0px 0px 3px rgba(0,0,0,0.3); }
     }
 
-    .page-content,
     .post-content { 
         text-align: justify; 
     }
@@ -74,28 +75,43 @@ body {
         font-size: 12px;
         line-height: 1.4;
     }
-    pre, code {
-        font-family: Inconsolata, monospace;
+}
+
+
+nav.oldernewer {
+    border-top: 1px solid $white0;
+    box-shadow: 0px -1px 0px $white2;
+    margin: $base-spacing*2 0;
+    padding: $base-spacing 0;
+    @include clearfix;
+    .older { float: left;  text-align: left;  }
+    .newer { float: right; text-align: right; }
+}
+
+.post-list {
+    text-align: left;
+    li     { margin-bottom: $base-spacing; @include clearfix; }
+    .image { 
+        display: table-cell; vertical-align: top;
+        width: 64px; height: 64px;
+        padding: 0 $small-spacing $small-spacing 0;
+    }
+    .info  {
+        display: table-cell; vertical-align: top; 
+        .meta  { color: $black4; line-height: 1; margin: 0 0 $base-spacing/4 0;}
+        h3     { margin: 0; padding: 0; }
     }
 }
 
 
-.post-list {
-    text-align: left;
-    li          { margin-bottom: $base-spacing; @include clearfix; overflow: hidden; }
-    .post-image { max-width: 70px; max-height: 70px; float: left;
-                  margin: 0 $small-spacing $small-spacing 0; }
-    .post-meta  { color: $black4; line-height: 1; overflow: hidden; margin: 0 0 $base-spacing/4 0;}
-    h3          { margin: 0; padding: 0; }
-}
 
-
+/*-------------------------------------------------------------------------------*/
 .greeter {
     position: relative; width: 100%; height: auto;
 
     .bg {
         width: 100%; height: 100%;
-        background: url("/images/greeter.jpg");
+        background: url("/images/greeter.jpg") $black5;
         background-position: 50% 50%;
     }
     .bgcover {

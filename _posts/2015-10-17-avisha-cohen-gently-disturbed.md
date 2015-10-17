@@ -13,3 +13,5 @@ Avishai Cohenの作品は、本人のベースもさることながら、ピア�
 そのピアニストをAvishaiはよく取っ替え引っ替えするのですが、このアルバムで弾いている
 Shai Maestroが僕は一番好きです。Avishaiのために空気を作るにとどまらないピアノソロの凄さがあります。
 しかも珍しくピュアなピアノトリオ作品。
+
+[Apple Music](https://itunes.apple.com/us/album/gently-disturbed-bonus-track/id279396076)

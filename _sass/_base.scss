@@ -126,7 +126,6 @@ nav.oldernewer {
         a { color: $white2; }
         a:hover { color: $white4; }
         .links {
-            margin-top: $base-spacing;
             a { display: inline-block; text-align: center; margin: $base-spacing $base-spacing 0 0; }
             font-size: 14px;
             .icon, .text { display: block; }

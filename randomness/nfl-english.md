@@ -12,7 +12,7 @@ image: /randomness/brady-edelman.jpg
 12th man             | Seattle Seahawksの観客。あまりにうるさいため一人の選手並みに相手のオフェンスを困らせる。
 2-minute drill       | 2-minute warning後のプレイ。緊迫感のあるプレイが望ましい。
 2-minute warning     | 各ハーフ残り2分になると挟まれる、TVCM放送用のタイムアウト。
-2-score game         | 8点差から14点差の状態。負けている方は二回得点しないと追いつかない。
+2-score game         | 9点差から14点差の状態。負けている方は二回得点しないと追いつかない。なお8点差はタッチダウン後2-point conversionを決めれば追いつくので、厳密には2-score gameではない。
 3rd and long         | もう3rd downなのに、1stダウン獲得まで約9ヤード以上残っている状態。Longの定義は実況者による。残りが長いためほぼパスプレーをするしかない。
 3rd and managable    | 3rd downで、1stダウン獲得まで残り3〜4ヤードの状態。Managableは「何とかなる」の意。ランプレーで堅実にやれば届きそう。
 3-and-out            | 3rd downまでに10ヤード進めず、パントして終了してしまった残念な攻撃。

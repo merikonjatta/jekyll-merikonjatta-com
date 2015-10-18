@@ -5,6 +5,8 @@ image: /randomness/brady-edelman.jpg
 
 ---
 
+<!-- vim: wrap -->
+
 あるいは、ただのアメフト用語辞典。そのうち完成するであろう。
 
 フレーズ|意味
@@ -16,13 +18,13 @@ image: /randomness/brady-edelman.jpg
 3rd and long         | もう3rd downなのに、1stダウン獲得まで約9ヤード以上残っている状態。Longの定義は実況者による。残りが長いためほぼパスプレーをするしかない。
 3rd and managable    | 3rd downで、1stダウン獲得まで残り3〜4ヤードの状態。Managableは「何とかなる」の意。ランプレーで堅実にやれば届きそう。
 3-and-out            | 3rd downまでに10ヤード進めず、パントして終了してしまった残念な攻撃。
-3-4 defense          | ディフェンスライン（最前線）が3人、ラインバッカー（その後ろ）が4人というディフェンス陣形。
-4-3 defense          |
-5 for 6              |
-500                  |
-7th overall pick     |
-7th round pick       |
-A-gap                |
+3-4 defense          | ディフェンスライン（最前線）が3人、ラインバッカー（その後ろ）が4人という、よく見るディフェンス陣形。
+4-3 defense          | ディフェンスライン（最前線）が4人、ラインバッカー（その後ろ）が3人という、よく見るディフェンス陣形。
+m for n              | 何かをn回試みて、うちm回成功している。キックでもタッチダウンパスでも何にでも使う表現。He's 5 for 6 on field goalsなど。
+500                  | 勝率5割。
+nth overall pick     | ドラフトにて全体のn人目に選ばれた。NFLは全32チームなので、32nd overall pickまでは1st round pickでもある。
+nth round pick       | ドラフトにて一巡目で選ばれた。
+A-gap                | 
 ACL                  |
 MCL                  |
 OT                   |

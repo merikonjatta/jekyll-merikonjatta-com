@@ -10,4 +10,16 @@
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	<link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.content iframe[src*="youtube"]').each(function(i, el) {
+				var ratio = parseFloat($(el).css("height")) / parseFloat($(el).css("width"))
+				console.log(ratio);
+				$(el).css("width", "100%");
+				$(el).css("height", parseFloat($(el).css("width"))*ratio);
+			});
+		});
+	</script>
 </head>

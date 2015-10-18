@@ -56,3 +56,8 @@ command|result
 :r! date  |  Read command output, below cursor. Note how this line is long and will probably wrap.
 :0r! date |  Read command output, at top
 :$r! date |  Read command output, at bottom
+
+エクストリームわたあめ
+----------------------
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L3J9vj8gamQ" frameborder="0" allowfullscreen></iframe>

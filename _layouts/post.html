@@ -23,18 +23,17 @@ layout: default
 		{{ content }}
 	</article>
 
+	<nav class="oldernewer">
+		<div class="older">
+			{% if page.previous %} 
+				<a rel="prev" href="{{ page.previous.url }}">&larr; Older</a>
+			{% endif %}
+		</div>
+		<div class="newer">
+			{% if page.next %} 
+				<a rel="next" href="{{ page.next.url }}">Newer &rarr;</a>
+			{% endif %}
+		</div>
+	</nav>
 </div>
-
-<nav class="oldernewer">
-	<div class="older">
-		{% if page.previous %} 
-			<a rel="prev" href="{{ page.previous.url }}">&larr; Older</a>
-		{% endif %}
-	</div>
-	<div class="newer">
-		{% if page.next %} 
-			<a rel="next" href="{{ page.next.url }}">Newer &rarr;</a>
-		{% endif %}
-	</div>
-</nav>
 

@@ -3,9 +3,11 @@ $base-font-family: "Roboto Slab", sans-serif;
 $heading-font-family: $base-font-family;
 
 $base-font-size: 15px;
-$base-font-weight: 300;
 $base-line-height: 1.6;
 $heading-line-height: 1.2;
+
+$base-font-weight: 300;
+$bold-font-weight: 300;
 
 // Other Sizes
 $base-border-radius: 3px;
@@ -43,6 +45,7 @@ $white1: #ebebeb;
 $white0: #ffffff;
 
 $base-font-color: $black2;
+$bold-font-color: $black0;
 
 $action-color: $blue;
 $base-border-color: $white4;

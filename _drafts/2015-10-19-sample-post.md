@@ -6,13 +6,18 @@ image: /images/greeter.jpg
 
 ---
 
-メルドー先生の良いところだけが出たアルバムです。
-二枚組を通して一貫したテーマが感じられます。ストーリー感がある。
+ScrappleというEvernote再開発アプリを作ってる。ここんとこホテルにいる間はそればっ
+かりやっている。Redmineのwikiに限界を感じて以来ずっと作りたい作りたいと思って
+いたものだ。仕事をしてる事にはならないが一日を有意義に過ごせているし、Rackや
+Rubyについて新しい学びも多いのでAll goodだ。プログラミングを楽しいと感じたのも
+かなり久しぶりな気がして少し嬉しい。
 
-これまでに聴いたメルドー作品の中では一番好きかもしれない。
-これまでに聴いたストリングス入りのジャズの中でも一番好きかもしれない。
+これはH2ヘッディング
+--------------------
 
 いきなり`code`を使ったら`File.glob("**/*.rb")`どうなる？
+
+### これはH3
 
 サックスはDeweyの息子です。
 
@@ -42,3 +47,12 @@ class GithubService
   end
 end
 ```
+
+Vimで外部コマンドの出力を挿入する
+=================================
+
+command|result
+---|---
+:r! date  |  Read command output, below cursor. Note how this line is long and will probably wrap.
+:0r! date |  Read command output, at top
+:$r! date |  Read command output, at bottom

@@ -6,20 +6,20 @@ title: Writeups
 <div class="page">
 	<h1 class="title">Writeups</h1>
 
-	<div class="posts-list">
-		<ul class="post-list">
-			{% for post in site.posts %}
+	<div class="pages-list">
+		<ul>
+			{% for page in site.posts %}
 			<li>
 				<div class="image">
-					{% if post.image %}
-						<a href="{{post.url}}"><img src="{{post.image}}" alt="{{post.title}}" /></a>
+					{% if page.image %}
+						<a href="{{page.url}}"><img src="{{page.image}}" alt="{{page.title}}" /></a>
 					{% endif %}
 				</div>
 				<div class="info">
 					<div class="meta">
-						{{ post.date | date: "%Y-%m-%d" }}{% if post.categories.first %}, on {{ post.categories | join: ", " }} {% endif %}
+						{{ page.date | date: "%Y-%m-%d" }}{% if page.categories.first %}, on {{ page.categories | join: ", " }} {% endif %}
 					</div>
-					<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+					<h3><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
 				</div>
 			</li>
 			{% endfor %}

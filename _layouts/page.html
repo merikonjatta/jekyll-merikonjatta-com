@@ -3,7 +3,11 @@ layout: default
 ---
 <div class="page">
 
-	<h1 class="title">{{ page.title }}</h1>
+	<h1 class="title imagelayered">
+		<div class="bg" style="background-image:url({{ page.image }});"><div class="bgcover"><div class="fg">
+			<a href="{{ page.url }}">{{ page.title }}</a>
+		</div></div></div>
+	</h1>
 
 	<article class="content">
 		{{ content }}

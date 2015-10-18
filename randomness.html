@@ -1,0 +1,27 @@
+---
+layout: default
+title: Randomness
+---
+
+<div class="page">
+	<h1 class="title">Randomness</h1>
+
+	<div class="pages-list">
+		<ul>
+			{% for page in site.pages %}
+			{% assign dir = page.path | split: "/" | first %}
+			{% if dir == "randomness" %}
+			<li>
+				<h3 class="title imagelayered small">
+					<a href="{{ page.url }}">
+						<div class="bg" style="background-image:url({{ page.image }});"><div class="bgcover"><div class="fg">
+							{{ page.title }}
+						</div></div></div>
+					</a>
+				</h3>
+			</li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+</div>

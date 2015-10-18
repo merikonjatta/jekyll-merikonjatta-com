@@ -64,6 +64,9 @@ h1.title a:visited,
 h1.title a:hover    { color: $base-font-color; }
 
 .page, .post {
+    @include outer-container;
+    padding: 0 $small-spacing;
+
     .post-image   {
         margin: $base-spacing 0;
         img { max-height: 200px; box-shadow: 0px 0px 3px rgba(0,0,0,0.3); }
@@ -112,7 +115,8 @@ nav.oldernewer {
 
 /*-------------------------------------------------------------------------------*/
 .greeter {
-    position: relative; width: 100%; height: auto;
+    @include outer-container;
+    position: relative; height: auto;
 
     .bg {
         width: 100%; height: 100%;

@@ -5,7 +5,7 @@ layout: default
 <div class="post">
 
 	<div class="post-meta">
-		{{ page.date | date: "%Y-%m-%d" }}{% if page.categories.first %}, on {{ page.categories | join: ", " }} {% endif %}
+		{{ post.date | date: "%Y-%m-%d" }}{% if post.categories.first %}, on {{ post.categories | join: ", " }} {% endif %}
 	</div>
 	<h1 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
 

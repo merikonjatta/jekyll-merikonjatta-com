@@ -7,16 +7,14 @@ image: /randomness/brady-edelman.jpg
 
 <!-- vim: wrap -->
 
-フレーズ|意味
+フレーズ                         | 意味
 --------                         | ----
 12th man                         | Seattle Seahawksの観客。あまりにうるさいため一人の選手並みに相手のオフェンスを困らせる。
 3-4 defense                      | ディフェンスライン（最前線）が3人、ラインバッカー（その後ろ）が4人という、よく見るディフェンス陣形。
 4-3 defense                      | ディフェンスライン（最前線）が4人、ラインバッカー（その後ろ）が3人という、よく見るディフェンス陣形。
 500                              | 勝率5割。
-A-gap                            |
-ACL                              |
-MCL                              |
-OT                               | Overtime. 延長戦。
+a-gap                            |
+acl                              |
 all day                          |
 at Green Bay                     | Green Bayのホームグラウンドでの試合。
 audibling                        |
@@ -73,14 +71,13 @@ end-around                       |
 extra point                      |
 fade route                       |
 fair catch                       |
-firing on all cylinders          |
+firing on all cylinders          | 絶好調！
 flag                             |
 flat route                       |
 flea flicker                     |
 floats one                       |
 former Saint                     |
 forward progress                 |
-four-three                       |
 franchise                        |
 fullback                         |
 future hall of famer             |
@@ -114,6 +111,7 @@ loss of down                     |
 m for n                          | 何かをn回試みて、うちm回成功している。キックでもタッチダウンパスでも何にでも使う表現。He's 5 for 6 on field goalsなど。
 make a play                      |
 matchup                          |
+mcl                              |
 megatron                         |
 midfield                         |
 milk the clock                   |
@@ -130,6 +128,7 @@ offset                           |
 on the board                     |
 on the road                      |
 onside kick                      |
+ot                               | Overtime. 延長戦。
 out for the day                  |
 out of Michigan                  |
 out of the gun                   |

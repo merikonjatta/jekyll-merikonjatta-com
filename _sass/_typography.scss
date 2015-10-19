@@ -73,4 +73,22 @@ thead, th {
 
 td, th {
     padding: $small-spacing/2 $small-spacing;
+    text-align: left;
+}
+
+table.definitions {
+    table-layout: auto;
+    tr td:first-child, tr th:first-child { width: 20%; white-space: nowrap; }
+    tr td:last-child,  tr th:last-child  { width: 80&; }
+}
+
+table.ratio28 {
+    table-layout: fixed;
+    tr td:first-child, tr th:first-child { width: 20%; }
+    tr td:last-child,  tr th:last-child  { width: 80&; }
+}
+table.ratio37 {
+    table-layout: fixed;
+    tr td:first-child, tr th:first-child { width: 30%; }
+    tr td:last-child,  tr th:last-child  { width: 70&; }
 }

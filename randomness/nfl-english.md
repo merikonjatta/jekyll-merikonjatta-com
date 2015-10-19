@@ -7,6 +7,7 @@ image: /randomness/brady-edelman.jpg
 
 <!-- vim: wrap -->
 
+{: .ratio37}
 フレーズ                         | 意味
 --------                         | ----
 12th man                         | Seattle Seahawksの観客。あまりにうるさいため一人の選手並みに相手のオフェンスを困らせる。

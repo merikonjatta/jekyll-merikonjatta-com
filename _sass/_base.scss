@@ -129,31 +129,23 @@ nav.oldernewer {
 
 /*-------------------------------------------------------------------------------*/
 .greeter {
-    @include outer-container;
-    padding: 0 $small-spacing;
-    position: relative;
-    height: 420px;
+    width: 100%; height: auto; position: relative;
+    padding: 200px $base-spacing;
 
-    .bg {
-        position: absolute; left: $small-spacing; right: $small-spacing; top: 0; bottom: 0; z-index: 0;
-        background: url("/images/greeter.jpg") $black5;
-        background-position: 50% 50%;
-        @include filter(grayscale(60%) contrast(80%) brightness(50%));
+    color: $white2;
+    a        { color: inherit; }
+    a:hover  { color: $white0; }
+    .tagline { font-size: 16px; margin-bottom: $small-spacing; }
+    .links   { font-size: 14px;
+        .icon, .text { display: block; }
+        a { display: inline-block; text-align: center; margin: 0 $base-spacing 0 0; }
     }
 
-    .fg {
-        position: absolute; left: $base-spacing; right: $base-spacing; top: 42%; z-index: 1;
-        color: $white2; font-weight: 300;
-        a       { color: inherit; }
-        a:hover { color: $white4; }
-        .tagline {
-            font-size: 16px;
-            margin-bottom: $small-spacing;
-        }
-        .links {
-            font-size: 14px;
-            .icon, .text { display: block; }
-            a { display: inline-block; text-align: center; margin: 0 $base-spacing 0 0; }
-        }
+    .bg {
+        position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: -1;
+        background: url("/images/greeter.jpg") $black5;
+        background-position: 50% 50%;
+        background-size: cover;
+        @include filter(grayscale(60%) contrast(80%) brightness(80%));
     }
 }

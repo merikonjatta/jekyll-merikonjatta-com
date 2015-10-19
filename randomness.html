@@ -12,13 +12,10 @@ title: Randomness
 			{% assign dir = page.path | split: "/" | first %}
 			{% if dir == "randomness" %}
 			<li>
-				<h3 class="title imagelayered small">
-					<a href="{{ page.url }}">
-						<div class="bg" style="background-image:url({{ page.image }});"><div class="bgcover"><div class="fg">
-							{{ page.title }}
-						</div></div></div>
-					</a>
-				</h3>
+				<a class="title imagelayered small blocklink" href="{{ page.url }}">
+					<div class="fg"><h3>{{ page.title }}</h3></div>
+					<div class="bg" style="background-image:url({{ page.image }});"></div>
+				</a>
 			</li>
 			{% endif %}
 			{% endfor %}

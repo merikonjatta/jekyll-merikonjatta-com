@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<div class="post">
+{% capture classes %}{% for cat in page.categories %} category-{{cat}} {% endfor %}{% endcapture %}
+<div class="post {{ classes }}">
 
 	<div class="page-meta">
 		{{ page.date | date: "%Y-%m-%d" }}{% if page.categories.first %}, on {{ page.categories | join: ", " }} {% endif %}

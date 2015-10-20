@@ -89,10 +89,19 @@ img, picture {
         tr td:first-child, tr th:first-child { width: 20%; }
         tr td:last-child,  tr th:last-child  { width: 80&; }
     }
+
     table.ratio37 {
         table-layout: fixed;
         tr td:first-child, tr th:first-child { width: 30%; }
         tr td:last-child,  tr th:last-child  { width: 70&; }
+    }
+
+    .gist table {
+        table-layout: initial;
+    }
+    .gist.blob-code-inner,
+    .gist.blob-num {
+        font-family: Inconsolata, monospace;
     }
 
     ul, ol {

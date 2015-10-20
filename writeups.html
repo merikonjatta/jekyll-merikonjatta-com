@@ -10,11 +10,7 @@ title: Writeups
 		<ul>
 			{% for page in site.posts %}
 			<li>
-				<div class="image">
-					{% if page.image %}
-						<a href="{{page.url}}"><img src="{{page.image}}" alt="{{page.title}}" /></a>
-					{% endif %}
-				</div>
+				<div class="image"><a class="blocklink" style="background-image:url({{ page.image }})" href="{{ page.url }}"></a></div>
 				<div class="info">
 					<div class="meta">
 						{{ page.date | date: "%Y-%m-%d" }}{% if page.categories.first %}, on {{ page.categories | join: ", " }} {% endif %}

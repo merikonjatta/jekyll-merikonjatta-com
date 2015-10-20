@@ -19,13 +19,13 @@ body {
 }
 
 .header {
-    @include outer-container; padding: $base-spacing 0px;
+    @include outer-container; padding: $base-spacing*2 0px;
 
     a       { color: $black3; }
     a:hover { color: $black5; }
 
     .site-title {
-        @include span-columns(4); padding: $small-spacing;
+        @include span-columns(4);
         h1 {
             font-weight: 300; font-size: 20px; line-height: 1;
             margin: 0; padding: 0;
@@ -33,7 +33,7 @@ body {
     }
 
     .nav {
-        @include span-columns(8); padding: $small-spacing;
+        @include span-columns(8);
         text-align: right;
         ul { margin: 0; padding: 0; }
         li { font-weight: 300; font-size: 17px; line-height: 1;
@@ -55,7 +55,6 @@ body {
 
 .page, .post {
     @include outer-container;
-    padding: 0 $small-spacing;
 
     .page-image   {
         margin: $base-spacing 0;
@@ -90,8 +89,8 @@ body {
         .bg { @include filter(grayscale(50%) brightness(50%)); }
     }
 
-    .content { 
-        text-align: justify; 
+    .content {
+        text-align: justify;
     }
 
     .CodeRay {
@@ -113,13 +112,18 @@ nav.oldernewer {
 
 .pages-list {
     li     { margin-bottom: $base-spacing; @include clearfix; }
-    .image { 
+    .image {
         display: table-cell; vertical-align: top;
         width: 64px; height: 64px;
-        padding: 0 $small-spacing $small-spacing 0;
+        a {
+            background: $black5;
+            background-size: cover;
+            background-position: 0% 0%;
+        }
     }
     .info  {
-        display: table-cell; vertical-align: top; 
+        display: table-cell; vertical-align: top;
+        padding-left: $small-spacing;
         .meta  { color: $black4; line-height: 1; margin: 0 0 $base-spacing/4 0;}
         h3     { margin: 0; padding: 0; }
     }

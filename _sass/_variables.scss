@@ -11,9 +11,14 @@ $bold-font-weight: 300;
 
 // Other Sizes
 $base-border-radius: 3px;
-$base-spacing: $base-line-height * 1em;
-$small-spacing: $base-spacing / 2;
-$base-z-index: 0;
+$base-spacing:       $base-line-height * 1em;
+$small-spacing:      $base-spacing / 2;
+$base-padding:       24px;
+$small-padding:      12px;
+$base-z-index:       0;
+
+// Neat
+$max-width: (660px + $base-padding*2);
 
 // Colors
 $blue: #477dca;
@@ -58,9 +63,3 @@ $base-duration: 150ms;
 $base-timing: ease;
 
 $fa-font-path: "../../fonts";
-
-// Neat Overrides
-// $column: 90px;
-// $gutter: 30px;
-// $grid-columns: 12;
-$max-width: 660px;

@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-    @include outer-container; padding: $base-spacing*2 0px;
+    @include outer-container; padding: $base-spacing*2 $base-padding;
 
     a       { color: $black3; }
     a:hover { color: $black5; }
@@ -37,7 +37,7 @@ body {
         text-align: right;
         ul { margin: 0; padding: 0; }
         li { font-weight: 300; font-size: 17px; line-height: 1;
-             margin: 0 0 0 $base-spacing; padding: 0;
+             margin: 0; padding: 0 0 0 $base-padding;
              display: inline-block; }
     }
 }
@@ -46,15 +46,11 @@ body {
     margin-top: 100px;
 }
 
-.content-container {
-    @include outer-container; padding: $small-spacing;
-}
-
 
 /*-------------------------------------------------------------------------------*/
 
 .page, .post {
-    @include outer-container;
+    @include outer-container; padding: 0 $base-padding;
 
     .page-image   {
         margin: $base-spacing 0;
@@ -67,7 +63,7 @@ body {
 
     .title.imagelayered {
         width: 100%; height: auto; position: relative;
-        padding: 200px $small-spacing $small-spacing;
+        padding: 200px $small-padding $small-spacing;
         .bg { 
             position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: -1;
             background-color: $black2; background-position: 50% 0%; background-size: cover;
@@ -78,7 +74,7 @@ body {
     }
 
     .title.imagelayered.small {
-        padding: $base-spacing $small-spacing;
+        padding: $base-spacing $small-padding;
         .bg { background-position: 50% 20%; }
     }
 
@@ -127,8 +123,8 @@ nav.oldernewer {
     }
     .info  {
         display: table-cell; vertical-align: top;
-        padding-left: $small-spacing;
-        .meta  { color: $black4; line-height: 1; margin: 0 0 $base-spacing/4 0;}
+        padding-left: $small-padding;
+        .meta  { color: $black4; line-height: 1.5; margin: 0; }
         h3     { margin: 0; padding: 0; }
     }
 }
@@ -138,7 +134,7 @@ nav.oldernewer {
 /*-------------------------------------------------------------------------------*/
 .greeter {
     width: 100%; height: auto; position: relative;
-    padding: 200px $base-spacing;
+    padding: 200px $base-padding;
 
     color: $white2;
     a        { color: inherit; }
@@ -146,7 +142,7 @@ nav.oldernewer {
     .tagline { font-size: 16px; margin-bottom: $small-spacing; }
     .links   { font-size: 14px;
         .icon, .text { display: block; }
-        a { display: inline-block; text-align: center; margin: 0 $base-spacing 0 0; }
+        a { display: inline-block; text-align: center; margin: 0 $base-padding 0 0; }
     }
 
     .bg {

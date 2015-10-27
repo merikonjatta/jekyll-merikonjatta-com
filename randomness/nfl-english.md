@@ -96,6 +96,7 @@ hand off                         |
 hang time                        |
 hard count                       |
 haul it in                       |
+help over the top                |
 horsecollar                      |
 huddle                           |
 hurried                          |
@@ -120,6 +121,7 @@ move                             |
 move the chains                  |
 muffed                           |
 nickel                           |
+no huddle                        |
 nth overall pick                 | ドラフトにて全体のn人目に選ばれた。NFLは全32チームなので、32nd overall pickまでは1st round pickでもある。これで表現される選手は大抵スゴイ。
 nth round pick                   | ドラフトにて一巡目で選ばれた。
 off coverage                     |
@@ -150,6 +152,7 @@ play the ball                    |
 play-action                      |
 playoff                          |
 pocket                           |
+pooch punt                       |
 post-season                      |
 practice squad                   |
 pre-season                       |

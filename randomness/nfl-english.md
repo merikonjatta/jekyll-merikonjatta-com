@@ -2,10 +2,13 @@
 layout: page
 title: NFLを楽しむための英語フレーズ辞典
 image: /randomness/brady-edelman.jpg
+<!-- 
+vim: wrap
+16,$! LC_ALL="C" sort -df -t"|" -k1
+Use yy:@" to execute that line
+-->
 
 ---
-
-<!-- vim: wrap -->
 
 {: .ratio37}
 フレーズ                         | 意味
@@ -14,16 +17,15 @@ image: /randomness/brady-edelman.jpg
 3-4 defense                      | ディフェンスライン（最前線）が3人、ラインバッカー（その後ろ）が4人という、よく見るディフェンス陣形。
 4-3 defense                      | ディフェンスライン（最前線）が4人、ラインバッカー（その後ろ）が3人という、よく見るディフェンス陣形。
 500                              | 勝率5割。
-a-gap                            |
-acl                              |
-all day                          |
+ACL                              |
+A-gap                            |
 at Green Bay                     | Green Bayのホームグラウンドでの試合。
 audibling                        |
 automatic first down             | ディフェンスによる反則で適用されることがある罰則で、「残りヤード数やダウンカウントに関係なく1stダウンになる」という非常に重いもの。これがあるため攻撃側からするとPass Interferenceなどはとってもオイシイ。
 back shoulder                    |
 backfield                        |
 bad call                         |
-beast mode                       |
+Beast Mode                       |
 blitz                            |
 blown coverage                   |
 blowout                          |
@@ -156,8 +158,8 @@ pooch punt                       |
 post-season                      |
 practice squad                   |
 pre-season                       |
-pro-bowler                       |
 probable to return               |
+pro-bowler                       |
 protection                       |
 pump fake                        |
 pylon                            |

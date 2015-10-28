@@ -2,13 +2,13 @@
 layout: page
 title: NFLを楽しむための英語フレーズ辞典
 image: /randomness/brady-edelman.jpg
+
+---
 <!-- 
 vim: wrap
 16,$! LC_ALL="C" sort -df -t"|" -k1
 Use yy:@" to execute that line
 -->
-
----
 
 {: .ratio37}
 フレーズ                         | 意味

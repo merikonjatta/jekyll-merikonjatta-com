@@ -13,7 +13,7 @@ Use yy:@" to execute that line
 {: .ratio37}
 フレーズ                         | 意味
 --------                         | ----
-12th man                         | Seattle Seahawksの観客。あまりにうるさいため一人の選手並みに相手のオフェンスを困らせる。
+12th Man                         | Seattle Seahawksの観客。あまりにうるさいため一人の選手並みに相手のオフェンスを困らせる。
 3-4 defense                      | ディフェンスライン（最前線）が3人、ラインバッカー（その後ろ）が4人という、よく見るディフェンス陣形。
 4-3 defense                      | ディフェンスライン（最前線）が4人、ラインバッカー（その後ろ）が3人という、よく見るディフェンス陣形。
 500                              | 勝率5割。
@@ -148,24 +148,24 @@ pick play                        |
 pick-6                           |
 pistol                           |
 play clock                       |
-play fake                        |
-play from scrimmage              |
+play fake                        | Play-actionと同義
+play from scrimmage              | 
 play the ball                    |
-play-action                      |
+play-action                      | ランと見せかけてパスするプレイ。
 playoff                          |
 pocket                           |
 pooch punt                       |
 post-season                      |
 practice squad                   |
 pre-season                       |
-probable to return               |
+probable to return               | 怪我をして一時的にロッカールームへ引っ込んでいる選手が、おそらく試合中に戻ってこられるであろうという予想。
 pro-bowler                       |
 protection                       |
 pump fake                        |
-pylon                            |
-qb                               |
-qb rating                        |
-quarterback sneak                |
+pylon                            | エンドゾーンの隅を示すために置かれているオレンジ色の柔らかそうな棒。一般的には道路などに置かれるコーンのこと。
+qb                               | クォーターバック。
+qb rating                        | QB自身がボールを持って無理矢理ディフェンスラインへ突っ込んでいく、ランプレイの一種。3rd and inchesなどの場合に使われる。PatriotsのTom Bradyが得意とする。
+quarterback sneak                | 
 questionable                     |
 questionable to return           |
 read option                      |
@@ -174,12 +174,14 @@ regular season                   |
 released                         |
 results in a first down          |
 review                           |
-roll out                         |
+roll out                         | QBがポケットから横へ出て行くこと。レシーバーが見つからず、パスラッシュから逃げて時間をかせぐ行動であることが多い。
 ruling on the field is confirmed |
 ruling on the field stands       |
 rush                             |
 sack                             |
-safety                           |
+safety                           | ディフェンス最後尾のポジション。二人いるのが普通。前線が食い止められなかったボールキャリアを止める最後の砦。
+safety                           | 自殺点。ボールキャリアが自陣エンドゾーン内でタックルされダウンした場合に起こる。オフェンスが自陣エンドゾーン内でペナルティを食らった場合も起こる。得点は2点だが、次のプレーは得点した側がキックオフを受け取って始まるのでダメージは大きい。あまり頻繁に起こらないイメージだが、統計的には一週間一度くらいはあるらしい。
+safety blitz                     | セイフティによるブリッツ。QBにしてみると遠くにいたはずの選手が不意に突っ込んでくるので、全然安全ではない。
 scramble                         |
 screen                           |
 scrimmage yards                  |
@@ -189,12 +191,12 @@ sell                             |
 series                           |
 shotgun                          |
 shovel                           |
-shut out                         |
+shut out                         | 完封。
 sit on the route                 |
 slot receiver                    |
 sneak                            |
 special teams                    |
-spot                             |
+spot                             | 
 stacked receivers                |
 stiff arm                        |
 stretch                          |

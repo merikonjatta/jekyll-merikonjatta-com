@@ -1,0 +1,24 @@
+---
+layout: default
+title: Writeups
+---
+
+<div class="page">
+	<h1 class="title">Writeups</h1>
+
+	<div class="pages-list">
+		<ul>
+			{% for page in site.posts %}
+			<li>
+				<div class="image"><a class="blocklink" style="background-image:url({{ page.image }})" href="{{ page.url }}"></a></div>
+				<div class="info">
+					<div class="meta">
+						{{ page.date | date: "%Y-%m-%d" }}{% if page.categories.first %}, on {{ page.categories | join: ", " }} {% endif %}
+					</div>
+					<h3><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
